@@ -1,0 +1,294 @@
+/*********************\ GLOBAL /*********************/
+
+* {
+    box-sizing: border-box;
+    max-width: 100vw !important;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato';
+    background-color: #f3f3f3
+}
+
+:root {
+    --blue: #3378c2;
+    --blueLight: #cae4ff;
+}
+
+canvas {
+    height: auto
+}
+
+a:hover {
+    color: inherit !important;
+    text-decoration: none !important
+}
+
+/*********************\ COLORS /*********************/
+
+.colorBlue {
+    color: var(--blue)
+}
+
+.colorBlueLight {
+    color: var(--blueLight)
+}
+
+.bgBlue {
+    background-color: var(--blue)
+}
+
+.bgBlueLight {
+    background-color: var(--blueLight)
+}
+
+/*********************\ FONTS /*********************/
+
+.bold {
+    font-weight: 700
+}
+
+
+/*********************\ LOGIN /*********************/
+
+.login {
+    background-image: url('../img/login.jpg');
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+.login-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.login-content {
+    text-align: center;
+    width: 30%;
+}
+
+.login-title {
+    font-size: 2rem
+}
+
+.login-form {
+    height: 40px;
+}
+
+.login-form::placeholder {
+    color: #669ad1 !important
+}
+
+.login-button {
+    background-color: #3378c2;
+    height: 40px;
+}
+
+/*********************\ NAV /*********************/
+
+.navbar {
+    background-image: url('../img/menu.png');
+    background-size: 100% 100%;
+    min-height: 90px;
+    color: white;
+}
+
+.navbar>.container {
+    display: flex;
+    align-items: flex-end;
+    height: 70px;
+}
+
+.navbar-link {
+    color: white;
+}
+
+.menu-itens {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 7px;
+    font-size: 14px;
+    align-items: baseline;
+}
+
+.menu-itens>div {
+    margin: 0 .5rem;
+    font-size: 12px
+}
+
+.menu-row {
+    display: flex;
+    align-items: flex-end;
+}
+
+.menu-logo {
+    padding-bottom: 10px;
+}
+
+.dropdown-container {
+    display: flex;
+    flex-flow: column;
+    padding: 7px
+}
+
+.menu-dropdown>.dropdown-toggle {
+    cursor: pointer
+}
+
+.menu-icon {
+    margin-left: 7px
+}
+
+/*********************\ "BREAD" /*********************/
+
+.breadmenu {
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 2.5rem 0;
+    font-size: 2.2rem;
+}
+
+.breadmenu>.container {
+    position: relative
+}
+
+.breadmenu-back {
+    position: absolute;
+    left: -2.5rem;
+    top: 7px
+}
+
+/*********************\ PROJETOS /*********************/
+
+.projetos-titulo {
+    font-w
+}
+
+.projetos-header-exports>div {
+    margin: 0 .5rem
+}
+
+.projetos-header-exports>div>img {
+    padding-bottom: 3px
+}
+
+#projetos {
+    height: auto !important
+}
+
+.table {
+    border: 1px solid black;
+}
+
+.table>tbody {
+    font-size: 12px;
+}
+
+.table-head-2 {
+    font-size: 10px;
+    font-weight: 300;
+    color: #c3c3c3
+}
+
+.projetos-satisfacao {
+    padding: 1rem;
+    border: 1px solid black
+}
+
+#satisfacao {
+    width: 65% !important;
+    margin-left: 17.5%;
+    height: auto !important
+}
+
+.projetos-status-container {
+    display: flex;
+    margin: 15px;
+}
+
+.projetos-status {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    width: 7%;
+}
+
+.heightCanvas {
+    display: flex;
+    align-items: center
+}
+
+.projeto-status-item {
+    padding: .3rem
+}
+
+.status-title {
+    padding: 5px;
+}
+
+.projeto-status-item-content {
+    background-color: white;
+    margin: 5px 0;
+    padding: 5px;
+    font-size: 12px
+}
+
+/*********************\ FOOTER /*********************/
+.footer {
+    color: white;
+    padding: 3rem 0
+}
+
+.footer-link {
+    color: white;
+    text-decoration: underline;
+    font-size: 11px
+}
+.footer-link-two {
+    color: white;
+    font-size: 12px
+}
+
+.footer-link-three {
+    color: white;
+    text-decoration: underline;
+    font-size: 14px
+}
+
+.footer-cisco {
+    width: 70%
+}
+
+/*********************\ COPYRIGHT /*********************/
+.copyright {
+    background-color: #0a3894;
+    color: white;
+    padding: 1rem 0
+}
+
+.copyright-redes {
+    text-align: right
+}
+
+.copyright-redes > a > img {
+    width: 25px;
+    margin: 0 5px
+}
